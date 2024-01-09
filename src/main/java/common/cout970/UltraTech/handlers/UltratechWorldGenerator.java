@@ -124,7 +124,6 @@ public class UltratechWorldGenerator implements IWorldGenerator{
         if (!chunk.isChunkLoaded) {
             return;
         }
-        System.out.println("Generating oil at coordinates X: " + x + ", Y: " + y);
         int j = 10 + r.nextInt(20);
         boolean gen = false;
         Set<ChunkCoordinates> oilBlocks = new HashSet<>();
